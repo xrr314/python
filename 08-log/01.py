@@ -2,7 +2,7 @@ import logging
 
 LOG_FORMAT = "%(asctime)s=====%(levelname)s++++++%(message)s"
 
-logging.basicConfig(filename="testforflog.log", level=logging.DEBUG, format=LOG_FORMAT)
+logging.basicConfig(filename="testforlog.log", level=logging.DEBUG, format=LOG_FORMAT)
 
 logging.debug("This is a debug log.")
 logging.info("This is a info log.")
