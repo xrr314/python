@@ -119,7 +119,7 @@
 
 ## 读取
 - XML读取分两个主要技术,SAX， DOM
-- SAX（Simple API for XML):
+- SAX（Simple API for XML):使用比较少
     - 基于事件驱动的API
     - 利用SAX解析文档设计到解析器和事件处理两部分
     - 特点:
@@ -141,8 +141,8 @@
         - node.childNodes[index].nodeValue:获取单个节点值
         - node.firstNode:得到第一个节点，等价于node.childNodes[0]
         - node.attributes[tage_name]
-        - 案例v01
-    - etree 
+        - 案例01
+    - etree
         - 以树形结构来表示xml
         - root.getiterator:得到相应的可迭代的node集合
         - root.iter
@@ -151,15 +151,15 @@
         - node.tag: node对应的tagename
         - node.text:node的文本值
         - node.attrib： 是node的属性的字典类型的内容
-        - 案例v02
+        - 案例02
         
 - xml文件写入
     - 更改
-        - ele.set:修改属性
+        - ele.set:修改 属性
         - ele.append: 添加子元素
         - ele.remove:删除元素
-        - 案例 v03
+        - 案例 03
     - 生成创建
-        - SubElement, 案例v04
-        - minidom 写入， 案例v05
-        - etree创建， 案例v06
+        - SubElement, 案例04
+        - minidom 写入， 案例05
+        - etree创建， 案例06
