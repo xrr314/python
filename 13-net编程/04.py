@@ -25,7 +25,6 @@ def  tcp_srv():
         # 接受到的是bytes格式内容
         # 想得到str格式的，需要进行解码
         msg = msg.decode()
-
         rst = "Received msg: {0} from {1}".format(msg, addr)
         print(rst)
         # 6. 如果有必要，给对方发送反馈信息
