@@ -116,7 +116,7 @@
 - 起源
     - 1969 Leonard K. 教授发给同时的 “LO”
     - 1971 美国国防部自主的阿帕网(Arpanet)的通讯机制
-    - 通讯地址里用@， 
+    - 通讯地址里用@, 
     - 1987年中国的第一份电子邮件  
     “Across the Great Wall we can reach every corner in the world"
 
@@ -148,6 +148,8 @@
     - 第三方邮箱需要特殊设置， 以qq邮箱为例
         - 进入设置中心
         - 取得授权码
+            - 372979069
+            - hmiwrkscdhbabggf
         
 - Python for mail
     - SMTP协议负责发送邮件

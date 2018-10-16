@@ -27,13 +27,13 @@ with open("02.html", "rb") as f:
 
 
 # 发送email地址，此处地址直接使用我的qq有偶像，密码一般需要临时输入，此处偷懒
-from_addr = "1366798119@qq.com"
+from_addr = "372979069@qq.com"
 # 此处密码是经过申请设置后的授权码，不是不是不是你的qq邮箱密码
-from_pwd = "hjpovygcxmrshhcj"
+from_pwd = "hmiwrkscdhbabggf"
 
 # 收件人信息
 # 此处使用qq邮箱，我给自己发送
-to_addr = "1366798119@qq.com"
+to_addr = "372979069@qq.com"
 
 
 # 输入SMTP服务器地址
