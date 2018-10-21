@@ -14,8 +14,8 @@ class RandomBall():
         '''
         self.canvas=canvas
         # 定义球出现的初始位置,尽量不要让球在边框出现
-        self.xpos = random.randint(10, int(scrnwidth) - 20)
-        self.ypos = random.randint(10, int(scrnheight) - 20)
+        self.xpos = random.randint(60, int(scrnwidth) - 60)
+        self.ypos = random.randint(60, int(scrnheight) - 60)
 
         # 定义球运动的速度
         # 模拟运动,不断的擦掉原来的画,然后在一个新的地方在出现新的绘制
@@ -91,7 +91,7 @@ class ScreenSaver():
 
     def __init__(self):
         # 定义球随机个数
-        self.num_balls = random.randint(6, 10)
+        self.num_balls = random.randint(5, 10)
         #
         self.root = tkinter.Tk()
         # 取消边框
@@ -119,7 +119,7 @@ class ScreenSaver():
         for ball in self.balls:
             ball.move_ball()
         # after是200ms之后启动一个函数,第二个参数是启动的函数
-        self.canvas.after(200, self.run_screen_saver)
+        self.canvas.after(30, self.run_screen_saver)
 
     def myquit(self, e):
         # 此处只是利用了时间处理机制
