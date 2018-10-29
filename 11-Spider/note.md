@@ -117,7 +117,7 @@
 
     - 设置UA可以通过两种方式：
         - heads
-        - add_header
+        - add_header函数
         - 案例v9 
         
 - ProxyHandler处理（代理服务器）
