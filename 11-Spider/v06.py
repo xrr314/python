@@ -23,7 +23,7 @@ import json
 3. 结果就应该是girl的释义
 '''
 
-baseurl = 'http://fanyi.baidu.com/sug'
+baseurl = 'https://fanyi.baidu.com/sug'
 
 
 # 存放用来模拟form的数据一定是dict格式

@@ -9,7 +9,7 @@ import chardet
 if __name__ == '__main__':
     url='http://stock.eastmoney.com/news/1407,20170807763593890.html'
     rsp = request.urlopen(url)
-    #print(type(rsp))
+    print(type(rsp))
     #print(rsp)
 
     html = rsp.read()

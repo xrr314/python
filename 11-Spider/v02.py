@@ -14,6 +14,7 @@ if __name__ == '__main__':
     html = rsp.read()
 
     # 利用 chardet自动检测
+    #返回编码的格式字典集合
     cs = chardet.detect(html)
     print(type(cs))
     print(cs)

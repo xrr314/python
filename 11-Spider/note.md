@@ -45,6 +45,11 @@
 - 网页编码问题解决
     - chardet 可以自动检测页面文件的编码格式，但是，可能有误
     - 需要安装， conda install chardet
+        - 安装方式:
+            - 打开控制台,输入,oop1为需要安装的第三方包的环境名称
+                source activate oop1
+            - 开始安装,中间都为yes
+                conda install chardet
     - 案例v2
 - urlopen 的返回对象
     - 案例v3
