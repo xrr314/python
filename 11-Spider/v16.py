@@ -1,36 +1,25 @@
 from urllib import error, request, parse
 from http import cookiejar
 import json
+'''
+    读取cookie保存的文件,然后访问网页
+    运行是注意cookie放在过期的情况,之后运行前需要想运行v15来获取最新的cookie
+'''
+#创建filecookiejar实例
+cookie = cookiejar.MozillaCookieJar()
+cookie.load('cookie.txt',ignore_discard=True,ignore_expires=True)
 
-#创建cookiejar实例
-cookie = cookiejar.CookieJar()
 #生成cookie的管理器
 cookie_handler=request.HTTPCookieProcessor(cookie)
 #创建http请求管理器
-http_handler=request.HTTPHandler()
+http_handle=request.HTTPHandler()
 
 #生成https管理器
 https_handler=request.HTTPSHandler()
 
 
 #创建请求管理器
-opener=request.build_opener(http_handler,https_handler,cookie_handler)
-
-def login():
-    '''
-    负责初次登录
-    需要输入用户名密码,
-    :return:
-    '''
-    url = 'http://www.renren.com/PLogin.do'
-    #此键值对需要登录form的两个对应的input中提取name
-    data = {"email" : "15080334894",
-          "password" : "xrr940314"
-          }
-    data=parse.urlencode(data).encode()
-    req=request.Request(url,data=data)
-    rsp=opener.open(req)
-
+opener=request.build_opener(http_handle,https_handler,cookie_handler)
 
 def getHomePage():
     url='http://www.renren.com/968526175/profile'
@@ -41,5 +30,4 @@ def getHomePage():
         f.write(html)
 
 if __name__ == '__main__':
-    login()
     getHomePage()

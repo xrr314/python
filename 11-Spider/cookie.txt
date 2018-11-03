@@ -2,16 +2,16 @@
 # http://curl.haxx.se/rfc/cookie_spec.html
 # This is a generated file!  Do not edit.
 
-.renren.com	TRUE	/	FALSE	1572013441	_de	71C9DE1F680E5985D8D753809060AA86
-.renren.com	TRUE	/	FALSE	1698589441	anonymid	jnvtp35t-x4udci
+.renren.com	TRUE	/	FALSE	1572095963	_de	71C9DE1F680E5985D8D753809060AA86
+.renren.com	TRUE	/	FALSE	1698671963	anonymid	jnx6tsxhyghnm8
 .renren.com	TRUE	/	FALSE		first_login_flag	1
 .renren.com	TRUE	/	FALSE		id	968526175
-.renren.com	TRUE	/	FALSE	1543501441	ln_hurl	http://head.xiaonei.com/photos/0/0/men_main.gif
-.renren.com	TRUE	/	FALSE	1543501441	ln_uact	15080334894
+.renren.com	TRUE	/	FALSE	1543583963	ln_hurl	http://head.xiaonei.com/photos/0/0/men_main.gif
+.renren.com	TRUE	/	FALSE	1543583963	ln_uact	15080334894
 .renren.com	TRUE	/	FALSE		loginfrom	syshome
-.renren.com	TRUE	/	FALSE		p	224a718f3a1ec09bb712bc71a67236465
-.renren.com	TRUE	/	FALSE		societyguester	f6840c57bc61ce7dea86b3bd7ee719e25
-.renren.com	TRUE	/	FALSE		t	f6840c57bc61ce7dea86b3bd7ee719e25
-.renren.com	TRUE	/	FALSE		xnsid	3aa3daad
-.renren.com	TRUE	/xtalk/	FALSE		t	ee06a9757e3e790a3d985dfcf1643cf4
-zhibo.renren.com	FALSE	/	FALSE		JSESSIONID	abc571-EMwIWO-jvcxfBw
+.renren.com	TRUE	/	FALSE		p	6107f4727da4eb7e07d6cfd166b266675
+.renren.com	TRUE	/	FALSE		societyguester	ee5f9f976e31ac13c0e6c2294160ed705
+.renren.com	TRUE	/	FALSE		t	ee5f9f976e31ac13c0e6c2294160ed705
+.renren.com	TRUE	/	FALSE		xnsid	35b8ae2e
+.renren.com	TRUE	/xtalk/	FALSE		t	1a323a6dd76c905ce97f9733287f02c5
+zhibo.renren.com	FALSE	/	FALSE		JSESSIONID	abcdurmqveFZbgzh1rkBw

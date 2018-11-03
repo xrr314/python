@@ -195,6 +195,7 @@
     - 美国网景公司开发
     - CA（CertifacateAuthority)是数字证书认证中心，是发放，管理，废除数字证书的收信人的第三方机构
     - 遇到不信任的SSL证书，需要单独处理，案例v17
+        - 例如https://www.12306.cn
     
 - js加密
     - 有的反爬虫策略采用js对需要传输的数据进行加密处理（通常是取md5值)
@@ -202,13 +203,29 @@
     - 加密函数或者过程一定是在浏览器完成，也就是一定会把代码（js代码）暴露给使用者
     - 通过阅读加密算法，就可以模拟出加密过程，从而达到破解
     - 过程参看案例v18, v19
-    - 过程比较啰嗦，笔记比较少，仔细观察
-    
+    - 过程总结,需要的就是salt和sign的算法
+        var t = "" + ((new Date).getTime() + parseInt(10 * Math.random(), 10));
+        return {
+            salt: t,
+            sign: n.md5("fanyideskweb" + e + t + "6x(ZHw]mwzX#u0V7@yfwK")
+        }
+        - salt 就是时间串+(0-10的随机整数)
+        - sign 就是一个固定的字符串+输入的内容+salt+固定的后缀
+        - 过程中的注意点
+            - 要仔细查看js,中间过程还是需要思考一下
+            - 对于请求头需要注意修改为len(data)
+            - 为了保证salt中和sign中的时间串一致,需要先求出时间串
 - ajax
     - 异步请求
     - 一定会有url，请求方法，可能有数据
     - 一般使用json格式
     - 案例，爬去豆瓣电影， 案例v20
+        - 案例分析:豆瓣电影排行榜剧情的内容的排行榜
+            - 网页地址:https://movie.douban.com/typerank?type_name=%E5%89%A7%E6%83%85&type=11&interval_id=100:90&action=
+            - 请求地址:https://movie.douban.com/j/chart/top_list?type=11&interval_id=100%3A90&action=&start=0&limit=20
+            - 分析地址:一般用于同页面结合分析
+                interval_id评分
+                start=0&limit=20起始的位置和每页的记录数
     
 # Requests-献给人类
 - HTTP for Humans，更简洁更友好
@@ -216,7 +233,9 @@
 - 底层使用的是urllib3
 - 开源地址： https://github.com/requests/requests
 - 中文文档： http://docs.python-requests.org/zh_CN/latest/index.html   
-- 安装： conda install requests
+- 安装步骤： 
+    - source activate 环境名称
+    - conda install requests
 - get请求
     - requests.get(url)
     - requests.request("get", url)

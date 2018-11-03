@@ -4,7 +4,12 @@ import json
 
 #创建filecookiejar实例
 filename='cookie.txt'
+
+
+#与V13不同之处
 cookie = cookiejar.MozillaCookieJar(filename=filename)
+
+
 #生成cookie的管理器
 cookie_handler=request.HTTPCookieProcessor(cookie)
 #创建http请求管理器
