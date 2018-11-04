@@ -307,5 +307,5 @@
     - 如果不需要验证ssl证书，则设置成False表示关闭
     
         
-            rsp = requests.get("https://www.baidu.com", verify=False)
+            rsp = requests.get("https://www.12306.cn", verify=False)
             # 如果用verify=True访问12306，会报错，因为他证书有问题 
