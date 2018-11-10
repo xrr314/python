@@ -59,11 +59,15 @@
     
 - 常用路径表达式：
     - nodename: 选取此节点的所有子节点
-    - /: 从根节点开始选
+        - booksotre: 选取bookstore下的所有子节点
+    - /: 从根节点开始选,相当于根节点
+        - /booksotre: 选取根元素
     - //: 选取元素，而不考虑元素的具体为止
+        - //book: 选取book子元素
     - .:  当前节点
-    - ..:父节点
+    - ..: 父节点
     - @： 选取属性
+        - //@lang:选取名称为lang的所有属性
     - 案例：
         - booksotre: 选取bookstore下的所有子节点
         - /booksotre: 选取根元素
@@ -84,9 +88,9 @@
 - 通配符
     - `*` : 任何元素节点
     - @*： 匹配任何属性节点
-    - node(): 陪陪任何类型的节点
+    - node(): 匹配任何类型的节点
 - 选取多个路径
-    - //book/tile  | //book/author : 选取book元素中的title和author元素
+    - //book/title  | //book/author : 选取book元素中的title和author元素
     - //tile | //price: 选取文档中所有的title和price元素
   
 # lxml库

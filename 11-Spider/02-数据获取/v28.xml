@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<bookstore>
+
+    <book category="cooking">
+        <title lang="en">everyday hello</title>
+        <author>helo</author>
+        <year>2018</year>
+        <price>23</price>
+    </book>
+    <book category="eduction">
+        <title lang="en">forpython</title>
+        <author>hello</author>
+        <year>2014</year>
+        <price>2</price>
+    </book>
+    <book category="sport">
+        <title lang="en">running</title>
+        <author>run</author>
+        <year>2010</year>
+        <price>30</price>
+    </book>
+
+</bookstore>
