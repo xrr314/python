@@ -119,8 +119,10 @@
     - 对应Html中的标签
     - 可以通过soup.tag_name
     - tag两个重要属性
-        - name
-        - attrs
+        - name 标签,如:link,div
+        - attrs 标签中的属性,如:采用的是字典类型
+            {'rel': ['shortcut', 'icon'], 'href': '/favicon.ico', 'type': 'image/x-icon'}
+        - string 标签中的内容
     - 案例a34  
  
 - NavigableString
@@ -144,9 +146,9 @@
             - 字符串
             - 正则表达式
             - 列表
-        - kewwortd参数，可以用来表示属性
+        - keyword参数，可以用来表示属性
         - text： 对应tag的文本值
-        - 案例34
+        - 案例35
             
 - css选择器
     - 使用soup.select, 返回一个列表
@@ -156,4 +158,4 @@
     - 组合查找: soup.select("div #input_content")
     - 属性查找: soup.select("img[class='photo'])
     - 获取tag内容： tag.get_text
-    - 案例35
+    - 案例36
