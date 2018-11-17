@@ -99,6 +99,7 @@
 - 功能：
     - 解析HTML,案例v29.py
     - 文件读取，案例v30.html, v31.py
+        - 只能够读取XML格式类型的文件
     - etree和XPath的配合使用, 案例v32.py
 
 # CSS选择器  BeautifulSoup4
