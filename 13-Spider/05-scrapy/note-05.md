@@ -26,7 +26,7 @@
     - 新建项目：scrapy startproject xxx
     - 明确需要目标/产出:  编写item.py
     - 制作爬虫 ： 地址 spider/xxspider.py
-    -  存储内容： pipelines.py,   
+    - 存储内容： pipelines.py,
     
 - ItemPipeline
     - 对应的是pipelines文件
