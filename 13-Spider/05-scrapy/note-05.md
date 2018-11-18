@@ -28,6 +28,57 @@
     - 制作爬虫 ： 地址 spider/xxspider.py
     - 存储内容： pipelines.py,
     
+    
+- 案例 e14(爬取baidu首页)
+    - 利用最简单的爬虫
+        - 创建爬虫项目: 
+            通过控制台进入到运行环境中source activate oop1
+            执行 scrapy startproject e14          --e14为项目名称
+        - 编写对应的spider:
+            - 创建baiduspider.py文件,其中的类要继承scrapy.Spider
+            - 定义name,即定义爬虫的名称
+            - 定义起始的URL列表
+            - 重写scrapy.Spider中的parse方法
+                def parse(self, response):
+    - 爬去百度页面
+        - 注意这里,我们的项目默认的情况下遵守每个网站的robots.txt的规则
+            例如,百度,我们可以通过,www.baidu.com/robots.txt查看规则
+        - 而百度默认是拒绝我们的访问的,所以这你我们需要修改项目的settings.py
+            ROBOTSTXT_OBEY = True,将其改成False
+        - 开始爬取,在控制台进入到项目文件中执行
+            scrapy crawl baidu              --其中baidu为我们之前创建的spider中设定的name值
+    - 关闭配置机器人协议
+        
+- 案例e15_meiju(爬取天天美剧)
+    - 创建新项目
+        同项目e14
+    - 分析网页(非常重要)
+        - 查看所要爬取数据的位置(class,id...),等等
+        - 浏览器中使用F12来查看页面中的元素
+    - 定义items,定义数据格式
+        def MeijuItem(scrapy.Item):
+            name = scrapy.Field()
+            ...
+    - 编写spider， 确定如何提取item
+        创建meijuspider.py
+            定义name和start_urls列表
+            重写parse(self, response):
+                通过xpath定位所要查找的元素所在的位置
+                    movies = response.xpath('//ul[@class="top-list  fn-clear"]/li')
+                通过for movie in movies:再对每一个li中的内容进行处理
+    - 编写pipeline， 确定如何处理item
+        - 添加MeijuPipeline的类继承与object
+            1.首先要写一个__init__(self)
+            2.添加方法process_item(self,item,spider)
+    
+    - 可以通过增加一个单独命令文件的方式在pycharm中启动爬虫 
+        from scrapy import  cmdline
+        cmdline.execute("scrapy crawl meiju".split())
+ 
+ 
+
+
+
 - ItemPipeline
     - 对应的是pipelines文件
     - 爬虫提取出数据存入item后，item中保存的数据需要进一步处理，比如清洗，去重，存储等
@@ -162,53 +213,7 @@
     - 编写pipeline
     - 设置pipeline
      
-- 案例 e14(爬取baidu首页)
-    - 利用最简单的爬虫
-        - 创建爬虫项目: 
-            通过控制台进入到运行环境中source activate oop1
-            执行 scrapy startproject e14          --e14为项目名称
-        - 编写对应的spider:
-            - 创建baiduspider.py文件,其中的类要继承scrapy.Spider
-            - 定义name,即定义爬虫的名称
-            - 定义起始的URL列表
-            - 重写scrapy.Spider中的parse方法
-                def parse(self, response):
-    - 爬去百度页面
-        - 注意这里,我们的项目默认的情况下遵守每个网站的robots.txt的规则
-            例如,百度,我们可以通过,www.baidu.com/robots.txt查看规则
-        - 而百度默认是拒绝我们的访问的,所以这你我们需要修改项目的settings.py
-            ROBOTSTXT_OBEY = True,将其改成False
-        - 开始爬取,在控制台进入到项目文件中执行
-            scrapy crawl baidu              --其中baidu为我们之前创建的spider中设定的name值
-    - 关闭配置机器人协议
-    
-    
-- 案例e15_meiju(爬取天天美剧)
-    - 创建新项目
-        同项目e14
-    - 分析网页(非常重要)
-        - 查看所要爬取数据的位置(class,id...),等等
-        - 浏览器中使用F12来查看页面中的元素
-    - 定义items,定义数据格式
-        def MeijuItem(scrapy.Item):
-            name = scrapy.Field()
-            ...
-    - 编写spider， 确定如何提取item
-        创建meijuspider.py
-            定义name和start_urls列表
-            重写parse(self, response):
-                通过xpath定位所要查找的元素所在的位置
-                    movies = response.xpath('//ul[@class="top-list  fn-clear"]/li')
-                通过for movie in movies:再对每一个li中的内容进行处理
-    - 编写pipeline， 确定如何处理item
-        - 添加MeijuPipeline的类继承与object
-            1.首先要写一个__init__(self)
-            2.添加方法process_item(self,item,spider)
-    
-    - 可以通过增加一个单独命令文件的方式在pycharm中启动爬虫 
-        from scrapy import  cmdline
-        cmdline.execute("scrapy crawl meiju".split())
-                
+               
               
     
 - 案例e17-校花网
