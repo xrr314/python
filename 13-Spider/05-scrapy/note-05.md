@@ -51,12 +51,13 @@
         
 - 案例e15_meiju(爬取天天美剧)
     - 创建新项目
-        同项目e14
+        通过控制台进入到运行环境中source activate oop1
+        执行 scrapy startproject e15_meiju
     - 分析网页(非常重要)
         - 查看所要爬取数据的位置(class,id...),等等
         - 浏览器中使用F12来查看页面中的元素
     - 定义items,定义数据格式
-        def MeijuItem(scrapy.Item):
+        class MeijuItem(scrapy.Item):
             name = scrapy.Field()
             ...
     - 编写spider， 确定如何提取item
@@ -108,7 +109,8 @@
 - 中间件(DownloaderMiddlewares)
     - 中间件是处于引擎和下载器中间的一层组件
     - 可以有很多个，被按顺序加载执行
-    - 作用是对发出的请求和返回的结果进行预处理
+    - 作用:
+        对发出的请求和返回的结果进行预处理
     - 在middlewares文件中
     - 需要在settings中设置以便生效
     - 一般一个中间件完成一项功能
@@ -183,7 +185,7 @@
     - 为了放置爬虫陷入死循环，需要去重
     - 即在spider中的parse函数中，返回Request的时候加上dont_filter=False参数
     
-            myspeder(scrapy.Spider):
+            myspider(scrapy.Spider):
                 def parse(.....):
                 
                     ......
