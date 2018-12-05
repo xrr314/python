@@ -189,6 +189,6 @@ def yd_fanyi(key):
 if __name__ == '__main__':
     while 1:
         key = input('请输入你要翻译的内容:')
-        yd_fanyi(key)
         if key == 'q':
             break
+        yd_fanyi(key)
