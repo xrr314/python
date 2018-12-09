@@ -39,7 +39,7 @@ python操作mysql
 import pymysql
 
 
-# 创建数据库
+# # 创建数据库
 # try:
 #     # 获取数据库链接,如果是utf8类型,需要定制数据库
 #     # 打开链接
@@ -68,13 +68,13 @@ import pymysql
 # except:
 #     print('创建失败')
 
-# 数据插入
-db = pymysql.connect(host='127.0.0.1',user='root',passwd='123456',port=3306,db='test')
-
-cursor = db.cursor()
+# # 数据插入
+# db = pymysql.connect(host='127.0.0.1',user='root',passwd='123456',port=3306,db='test')
+#
+# cursor = db.cursor()
 # sql = 'insert into tlxy(FIRST_NAME,LAST_NAME,AGE,SEX,INCOME) VALUES ("xue","rongrong",18,"M","5555"),' \
 #       '("huang","laoban",19,"1",66666)'
-# 为了防止sql注入
+# # 为了防止sql注入
 # sql = "INSERT INTO tlxy(FIRST_NAME,LAST_NAME,AGE,SEX,INCOME) \
 #       VALUES('%s','%s','%d','%c','%s')"%('xue','rongrong',18,'M','5555')
 # try:
@@ -93,6 +93,8 @@ fetchall():接受所有的返回结果
 fetcgone():获取下一个结果集
 rowcount():只读属性,返回执行语句影响的行数
 '''
+db = pymysql.connect('127.0.0.1','root','123456','test')
+cursor = db.cursor()
 try:
     sql = 'select * from tlxy'
     cursor.execute(sql)
