@@ -431,6 +431,7 @@ artist_id,artist_name
 2125,陈晓东
 12010027,陈柏霖
 963431,陈致逸
+12095299,陈柯宇
 31055,Cee
 2130,蔡国权
 1043290,传琦SAMA
@@ -498,7 +499,6 @@ artist_id,artist_name
 1049979,陈建斌
 2440,陈伟伦
 1019523,冬飞
-1135118,陈咏谦
 12054456,董又霖
 12440042,邓伦
 12333145,DP龙猪
@@ -1198,11 +1198,9 @@ artist_id,artist_name
 12073350,寇麟
 3622,康乔
 1099008,KNXER
-29150357,Knight 
+12869562,Kitson Lau
 1094139,Ken-Ming Yang
 3661,开克尔曼尼
-12869562,Kitson Lau
-1049872,Kalen
 1050287,King@C AllStar
 3655,孔朝晖
 1074108,Ky
@@ -1211,6 +1209,8 @@ artist_id,artist_name
 12061058,Knopha
 1039553,K'桑
 3630,空气球
+29150357,KNNNT
+12408142,库巴先生
 3684,林俊杰
 3685,林宥嘉
 4292,李荣浩
@@ -1268,6 +1268,7 @@ artist_id,artist_name
 27695878,梁靖康
 1051026,廖效浓
 3723,吕方
+12349677,Lamp Ho
 13059448,吕晨瑜
 893267,李琦
 3715,梁朝伟
@@ -1310,7 +1311,6 @@ artist_id,artist_name
 3737,刘畊宏
 3956,罗家英
 3702,林峯
-12974786,林小坤
 826336,马雨阳
 188141,满舒克
 4479,MC Hotdog
@@ -1427,8 +1427,8 @@ artist_id,artist_name
 12049170,Nurim Kuanix
 4662,南风（姜海龙）
 1050110,还没睡醒的DiDi
+12226571,NANO-Fuckyig
 1046339,南瓜饭
-12226571,NANO-F**kyig
 804367,南城二哥
 12091030,牛歌
 1019301,宁林
@@ -1894,6 +1894,7 @@ artist_id,artist_name
 1159133,深七
 1037013,少恭
 1047049,Yoken_Official
+768266,ギャラクシー・騎士
 12126487,孙晨
 5106,寿君超Keyso
 1039650,S9ryne 
@@ -1902,7 +1903,6 @@ artist_id,artist_name
 13059449,孙浩然
 1089111,孙八一
 5039,石进
-768266,银 河 骑 士 李 老 板
 12976513,scaredkrow
 4935,爽子
 12122233,税子洺
@@ -1925,6 +1925,7 @@ artist_id,artist_name
 1132572,舒大卫
 15022221,萨沙
 896003,沈震轩
+27692511,江枫
 12925116,沈煜伦
 5015,宋捷
 4974,盛中国
@@ -1973,7 +1974,6 @@ artist_id,artist_name
 1078072,顺德
 868036,尚裘峰
 1058100,史哲宇
-5134,孙浩雨
 5196,陶喆
 5205,谭咏麟
 12492058,陶孟童
@@ -1986,11 +1986,11 @@ artist_id,artist_name
 955095,图特哈蒙
 5200,屠洪刚
 5197,童安格
-1050510,TSAR
 13056460,覃俊毅
 5199,邰正宵
 31286,The Shanghai Restoration Project
 1193004,唐伯虎Annie
+1050510,TSAR
 5234,佟大为
 5203,汤潮
 1155005,Terry Zhong
@@ -3956,12 +3956,13 @@ artist_id,artist_name
 991051,loser_XC
 9099,欧阳明琪
 30110460,欧阳来琴
-1050255,OnPound
+13227011,欧咏怡
 30615566,欧阳贝儿
-27693337,欧雯
+1050255,OnPound
 12121134,OUR
-12074609,欧阳英姿
+27693337,欧雯
 1193422,OwlMan
+12074609,欧阳英姿
 9102,彭佳慧
 9106,彭羚
 11975104,Pig小优
@@ -4747,6 +4748,7 @@ artist_id,artist_name
 10218,叶德娴
 12457100,叶雪如
 10355,袁咏琳
+12468130,杨肸子
 10234,俞静
 10201,有耳非文
 12475083,丫蛋
@@ -4772,7 +4774,6 @@ artist_id,artist_name
 1132933,袁晓婕
 1046028,严晴
 10266,袁洁莹
-13838020,姚雪
 10558,周笔畅
 10559,张惠妹
 1024308,张碧晨
@@ -6269,6 +6270,7 @@ artist_id,artist_name
 11080,女子水晶乐坊
 1187071,内蒙古少年合唱团
 12443,No
+12594165,鸟撞 Birdstriking
 12483,年年红演唱组
 1192496,nowhere乐团
 12451041,女声四重唱
@@ -6303,33 +6305,32 @@ artist_id,artist_name
 12461,南蟾兄弟
 12634413,N.O.D
 12176090,女子国乐坊
-12594165,鸟撞
-1078418,南十方乐队
 12998944,男子汉
+1078418,南十方乐队
 1074047,喃乐队
 13498321,宁玛巴白玉僧众
 12491,霓虹木
 12494,Nova Heart
-12456,纽约客
 1039681,宁夏制造
-12053194,妮可酱
+12456,纽约客
 1049229,南域之声
+12053194,妮可酱
 12500,那些花儿
-12503197,NG乐队
-1192448,Natural Outcome Band
 12498,No Fear
+1192448,Natural Outcome Band
+12503197,NG乐队
 12464,脑刹乐队
-1192490,柠檬草乐团
+15021093,No Promise
 30480980,南北方舟
-1178270,男人帮
+13044113,南西乐团
 30109500,南腔北调
-1079022,NOSENSE无感觉
+977017,NaNaFormosa
 13057180,NoHorizon
-996554,Nora Says
+792553,Nonsectarian
 12348416,Noëmi Waysfeld & Blik
-30111255,柠檬茶演唱组
+12469,No One Pulse
 12096304,N.P.E.自由引力
-12273303,牛村长团队
+30111255,柠檬茶演唱组
 13059577,偶像练习生
 29148386,ONER
 1039319,Odd Couple怪鸳鸯
@@ -7513,7 +7514,6 @@ artist_id,artist_name
 27838,Art Garfunkel
 1043131,Alex Adair
 27598,Aaron Carter
-130026,Arthur Rubinstein
 28694,Andrew Allen
 12074343,Ampyx
 1089072,Albert Kick 
@@ -7543,6 +7543,7 @@ artist_id,artist_name
 12023320,AndyM
 13228211,A.N.O.
 1132987,Arman Cekin
+1116021,ayokay
 178059,Bruno Mars
 29709,Boyce Avenue
 12262073,Bazzi
@@ -8354,13 +8355,13 @@ artist_id,artist_name
 35329,James Blunt
 35334,Jay-Z
 37065,Josh Vietti
-35511,Jason DeRulo
 12203295,Joji
 37264,Jhameel
 35342,John Legend
 1192069,Jonas Blue
 62194,Juicy J
 35375,Joel Hanson
+35511,Jason Derulo
 12448039,Jetlag Music
 12080227,Jessy Matador
 896177,John Dreamer
@@ -10742,7 +10743,7 @@ artist_id,artist_name
 55534,Eleni Mandell
 92263,Elena Gheorghe
 211933,EMMANUELLE
-12312324,EMI
+28445936,Emily Blunt
 860929,Fleurie
 57223,Fefe Dobson
 1105075,Frances
@@ -11629,6 +11630,7 @@ artist_id,artist_name
 69607,Nathalie
 954523,Natalie Major
 69831,Nichole Nordeman
+69956,Nea
 70227,Nicole C. Mullen
 69329,Natalie Merchant
 69519,Norman Greenbaum
@@ -11642,7 +11644,6 @@ artist_id,artist_name
 1081328,Natasha Mosley
 69435,Nancy Wilson
 13582183,Netta
-70138,Nenia C'Alladhan
 12095275,Olivia O'Brien
 927034,Otilia
 70802,Olivia
@@ -11917,7 +11918,6 @@ artist_id,artist_name
 73497,Rossy
 74592,Rachel Taylor
 72994,Rochelle
-72760,Rasa
 12096021,Ronela Hajati
 73866,Redbone
 12289114,rosy
@@ -12004,6 +12004,7 @@ artist_id,artist_name
 73627,Rosenstolz
 964300,Rita Satch
 896205,Raquel Castro
+74361,Riccardo Tesi
 74625,Sia
 140196,Selena Gomez
 12354062,SHY Martin
@@ -12161,7 +12162,6 @@ artist_id,artist_name
 78258,The Moldy Peaches
 1054131,Taryn Manning
 12023251,Tonton
-12893077,The Marías
 78283,Trisha Yearwood
 78209,Tarja Turunen
 17988,TSUKINOSORA
@@ -12204,6 +12204,7 @@ artist_id,artist_name
 12928046,the girl next door
 79231,The Blackbyrds
 78428,The Manhattan Transfer
+963630,Terese Fredenwall
 12230063,utopyan
 12129027,Una Sand
 83423,Urban Mystic
@@ -12579,6 +12580,7 @@ artist_id,artist_name
 1192233,Yessa
 85053,Yıldız Usmonova
 12335116,YUKI
+12310190,Ysabelle Cuevas
 12263471,YUME
 524234,Yael
 1131047,Youth Craving
@@ -12653,7 +12655,6 @@ artist_id,artist_name
 85006,Young Disciples
 84860,Yvonne Sanchez
 85034,Yamandú Costa
-12145035,yadunnknow.
 900106,Zella Day
 816461,Zara Larsson
 85274,Zendaya
@@ -13350,10 +13351,10 @@ artist_id,artist_name
 91419,David And The High Spirit
 91082,Duck Sauce
 1182911,Dead To A Dying World
+12143054,DABOYWAY
 53335,Daphne Loves Derby
 91574,DCX
 90534,Dark Captain
-131544,Dougal & Gammer
 91725,Eagles
 32670,Era
 91787,Epic Score
@@ -14660,6 +14661,7 @@ artist_id,artist_name
 41943,Relient K
 99384,Radiohead
 99385,Rammstein
+72760,RASA
 99380,Röyksopp
 156689,Rio
 99722,Rosheen
@@ -14689,6 +14691,7 @@ artist_id,artist_name
 78202,Ramones
 342558,Redondo
 99970,Radio Killer
+12457028,Radistai Dj's
 72752,Rainbow
 99621,Rökkurró
 41932,Rhapsody of Fire
@@ -14752,8 +14755,6 @@ artist_id,artist_name
 41936,Razorlight
 99411,Rednex
 99982,RAZ
-72756,Ratt
-791133,Route 94
 527682,SCNDL
 1182169,SeeB
 100696,Showtek
@@ -16080,7 +16081,6 @@ artist_id,artist_name
 159637,でんぱ組.inc
 12355380,DADARAY
 19233,DiGiTAL WiNG
-1063160,DJみそしるとMCごはん
 19117,DA PUMP
 161296,点と線
 21919,電気グルーヴ
@@ -16154,6 +16154,7 @@ artist_id,artist_name
 21843,downy
 159538,Doom
 19173,Dt.
+19220,detune.
 19353,EGOIST
 21463,End of the World
 19312,EastNewSound
@@ -18417,6 +18418,7 @@ artist_id,artist_name
 12663487,Owen Keith
 12256394,惊喜
 11986029,7pm
+12025453,OS
 12919519,LVMATT
 12165029,다원
 905250,낙준
@@ -18483,7 +18485,6 @@ artist_id,artist_name
 14019207,Frog White
 12276649,Cesar Chen
 826359,Qim Isle
-12291182,Young Nash
 1055014,Animenz
 1192509,AK
 12142076,Asteria
@@ -18678,12 +18679,12 @@ artist_id,artist_name
 12390122,Bravo
 12448183,B.Shoo
 213134,Byul
-12232129,白虎
+13968788,Big Marvel
 12054550,Bray
+12232129,白虎
 12141076,Big Pie
 12046478,Britain Cheese
-12996935,Bee Jelly
-12279896,Bros
+30975935,Bla$e Kid
 967037,Chen
 1011017,灿烈
 711186,Crush
@@ -19156,6 +19157,8 @@ artist_id,artist_name
 944056,Gold Member
 12073894,Gamaksae
 896267,Grip
+31032346,GOD-TUK
+31030095,Guitarukim
 30973302,郭俊英
 30855983,国一
 30855994,Gangsu Seo
@@ -19182,8 +19185,6 @@ artist_id,artist_name
 13059167,Guido
 12504050,Gimmiky
 12644099,高浩
-12493522,Garon
-12636779,G.sky
 776875,Henry
 1081917,Ghayrat Mahmut
 1087387,黄致列
@@ -19247,16 +19248,16 @@ artist_id,artist_name
 1049759,H7
 12260101,Hippy was Gipsy
 12096283,HANG5VA
-12646081,HWAJA
-123690,黄秉冀
 123673,Herald Han
+123690,黄秉冀
 1116085,洪宗玄
 123637,洪成民
 12467043,Hae
 977171,辉灿
 123718,惠化洞少年
-12376020,韩在硕
+12646081,HWAJA
 12108130,韩尚元
+12376020,韩在硕
 11975015,荷兰郁金香农场
 123696,Haro
 12029045,HONK
@@ -19288,8 +19289,8 @@ artist_id,artist_name
 123735,Illinit
 981169,Iron
 12068070,IONE
-123742,Inro Joo
 1192440,Isaac
+123742,주인로
 855540,Isaac
 1115204,Innovator
 123728,I Love You
@@ -19856,31 +19857,31 @@ artist_id,artist_name
 12446064,New Ager
 1179160,NUVON
 30615298,NYD
-30528348,Neo Franco
+30903460,Neo Musica
 30529330,New B
-30470256,NeoJW
+30528348,Neo Franco
 30396838,Noovv
-30453244,NcGYBer
+30470256,NeoJW
 30107662,NIA
-30316368,Nimkus
+30453244,NcGYBer
 28859262,NuKind
-30107332,Nau
+30316368,Nimkus
 15024162,Newage Star
-30074468,南裁根
+30107332,Nau
 13432146,Neskal
-29973460,NineDaze
+30074468,南裁根
 13432142,Neige
-29683524,Neo
+29973460,NineDaze
 13228534,Nain
-28894188,Nerd Connection
+29683524,Neo
 13228370,南光浩
-28389424,Nuff Louis
+28894188,Nerd Connection
 13161106,New Art Trio
-13974412,南明日
+28389424,Nuff Louis
 13128290,nuno
-13973340,Namo
+13974412,南明日
 13059994,Now-Newie
-13840048,NOIR
+13973340,Namo
 12675850,Ndu
 124470,October
 124472,Okasian
@@ -20138,22 +20139,23 @@ artist_id,artist_name
 12073623,权PD
 124577,权赫九
 27695300,全民宇
-30375534,全胜浩
+30892462,Quincy
 13924144,全敏河
-28410290,Q.Note
+30375534,全胜浩
 13840516,千禹京
-27693302,全吉元
+28410290,Q.Note
 13839532,秋歌谣
-13464150,权书仁
+27693302,全吉元
 12450168,权崇
-13161114,全明烈
+13464150,权书仁
 12441240,Queening 
-12462258,QWER
+13161114,全明烈
 124584,全范善
-12449014,全大洪
+12462258,QWER
 124580,QJ
-12440306,权进宇
+12449014,全大洪
 124576,奇思妙想
+12440306,权进宇
 12390110,千皮特
 886094,Quacy
 124578,Quaziq V
@@ -20547,46 +20549,47 @@ artist_id,artist_name
 30607304,Vernon D
 14928718,V.I.M
 28034428,VECK
-13684298,Vandi
+14055122,vvonne
 27951696,Vanin
-12463322,VouGa
+13684298,Vandi
 13432136,V.I.P
-12107058,Victor View
+12463322,VouGa
 13228504,Venian
-12096162,Vestica
+12107058,Victor View
 13226620,Visteeground
-12031374,Ventunes
+12096162,Vestica
 12450244,Vetrixor
-894138,Vic.Q
+12031374,Ventunes
 12448156,V ㅔ L L ㅗ
-381586,Valuable
+894138,Vic.Q
 12347208,Vida
-30730585,Valmet
+381586,Valuable
 12073912,VIPOLAR
-14921029,Votiar 
+30730585,Valmet
 1051044,Virgo
-12917369,VOYOON
+14921029,Votiar 
 711300,Vanda
-12717425,VIMOKA
+12917369,VOYOON
 30762419,VIN:O
-12463321,Vlue
+12717425,VIMOKA
 30618547,VALANCE
-12462297,VL
+12463321,Vlue
 30616363,Volodya Rewizion
-12450165,Varty
+12462297,VL
 30109531,Van dal
-12279785,Voice Man
+12450165,Varty
 29896491,VEBLEN
-12136061,Vian
+12279785,Voice Man
 29490535,Violet Cloud
-12108769,VictorView
+12136061,Vian
 27693295,Voli
-12108401,Voco
+12108769,VictorView
 13228515,Vinnyfly
-12023469,Voque
+12108401,Voco
 12692739,VoidRover
-124913,Vanzoo
+12023469,Voque
 12603719,Vanilla Studio
+124913,Vanzoo
 12503251,Ver.muda
 12467247,VoiCing
 12462299,Volo
@@ -20744,50 +20747,51 @@ artist_id,artist_name
 904181,XEHO
 124967,玄镇英
 13808037,幸运儿
-30903267,X-RADOO
+31043803,徐孝彬
 13429201,Xpiano
-30414335,贤秀
+30903267,X-RADOO
 13227537,徐正训
-30086743,先命
+30414335,贤秀
 13133217,夏振宇
-13807111,夏智百
+30086743,先命
 12436085,许正范
-13498207,徐元
+13807111,夏智百
 12422013,Xpand
-13226547,许建
+13498207,徐元
 12108149,徐民
-12463391,许贞贤
+13226547,许建
 11984025,徐景德
-12441215,玄京锡
+12463391,许贞贤
 124965,许景焕
-12061283,XXaw G
+12441215,玄京锡
 30617356,XIXV
-124987,许万成
+12061283,XXaw G
 30615664,贤旭
-30858338,玄龙镇
+124987,许万成
 30109604,Xacdo
-30828490,相逸
+30858338,玄龙镇
 27692568,雪松大师
-13774186,徐伊京
+30828490,相逸
 15024188,泫成敏
-13163122,Xyro
+13774186,徐伊京
 14999032,徐城敏
-13059898,夏云
+13163122,Xyro
 13838116,贤弼
-12630206,许俊河
+13059898,夏云
 13499264,徐东旭
-12566254,徐金源
+12630206,许俊河
 13023800,小小的合作
-12451226,XiBill
+12566254,徐金源
 12915496,XAVII
-12440270,Xoul Vermillion
+12451226,XiBill
 12646388,泫雨
-12095338,서태경
+12440270,Xoul Vermillion
 12630028,锡俊
-124982,徐京锡
+12095338,서태경
 12446012,宣浩
-124966,徐俊教
+124982,徐京锡
 12289024,许灿
+124966,徐俊教
 12279576,许志雄
 12107740,玄德之音
 12107248,许智勋
@@ -21360,20 +21364,21 @@ artist_id,artist_name
 1180083,Bitsol
 123297,by BL
 1057011,Buzzi
-27694652,Briony Kay
+31029808,白明熙
 758139,Bona
-13973156,白日淑
+27694652,Briony Kay
 723099,bonabbie
-12796024,Bubbledia
+13973156,白日淑
 125211,Baily Shoo
-12462460,BEY.Z
+12796024,Bubbledia
 30472226,Boiled onion
-12339128,Bree
+12462460,BEY.Z
 13499334,Bongwooree
-12054232,Binnie
+12339128,Bree
 13228222,白秀晶
-125204,Beaver Harris
+12054232,Binnie
 12928146,半月
+125204,Beaver Harris
 12144010,Beby
 12107282,Bina
 12074318,Be my friend
@@ -21523,50 +21528,51 @@ artist_id,artist_name
 14098717,Daye
 861030,Danbi
 12141035,定延
-30107494,Doson
+31044774,Daonsori
 30528407,Dawoon
-13707062,Dream
+30107494,Doson
 28861207,道渊大师
-13497186,东珠
+13707062,Dream
 13579187,Dopein
-13228518,DoDo
+13497186,东珠
 13500435,Diki
-12525586,Dall
+13228518,DoDo
 13500039,道熙
-12503214,DanBee
+12525586,Dall
 13484191,多慧
-12451026,Dins
+12503214,DanBee
 12931511,DALJI
-12441230,道延
+12451026,Dins
 12474687,D na Ade
-12369078,Dasom Ha
+12441230,道延
 12451099,D.ana
-12131094,Dilli Jinn
+12369078,Dasom Ha
 12447075,Doa
-12107070,datbyeol
+12131094,Dilli Jinn
 12122203,DyoN Joo
-30617320,DOO
+12107070,datbyeol
 12095051,Dives
-30315052,Dodo
+30617320,DOO
 125303,多爱
-14712136,DDZ
+30315052,Dodo
 30618649,Deubora Jeong
-13080284,DAR
+14712136,DDZ
 27692445,Dye
-12870592,Day Walker
+13080284,DAR
 12593049,Detuned
-12535636,DAMB
+12870592,Day Walker
 12458089,Diana
-12475216,Dee Archer
+12535636,DAMB
 12376017,Délicat
-12449024,DANYA
+12475216,Dee Archer
 12054533,D.zyne
-12311024,DaystAr
+12449024,DANYA
 11996209,Daloa
-12143068,多贤
+12311024,DaystAr
 1165029,데이
-125340,Daen
+12143068,多贤
 125293,丹熙
+125340,Daen
 1169002,EXY
 1046181,ELSIE
 986136,eSNa
@@ -21822,9 +21828,9 @@ artist_id,artist_name
 125379,花人
 12566293,韩素拉
 30530271,Heather1
-31019173,Hwangyusun
+31026769,임희영
 30344751,河彬
-30894277,High.D
+31025449,Han Seung Ju
 160947,IU
 868106,it's
 11996122,Inkii
@@ -21890,6 +21896,7 @@ artist_id,artist_name
 896448,Ju-A
 125511,JJ
 125504,佳仁
+12970270,Jvcki Wai
 1039088,何美臻 (Min He)
 125475,J.ae
 12061232,JENNIE
@@ -21963,7 +21970,6 @@ artist_id,artist_name
 1047192,JUBI
 125571,J-Sun
 125559,金善英
-12031176,姜诗拉
 125591,Krystal
 1137056,Kassy
 768277,孔敏智
@@ -22007,18 +22013,19 @@ artist_id,artist_name
 15250113,Koi Picasso
 905107,Kwon Ji An
 13971389,"Kona, the future"
-29151280,Kim Ye Bin
+31027032,Dami Kim
 13839181,Kyla
-15248064,KIRAVI
+29151280,Kim Ye Bin
 13163377,Kim Jun See
-13484016,Key Note
+15248064,KIRAVI
 12399113,KINDA
-12597028,KIRARA
+13484016,Key Note
 12053093,Kintana
-12467152,Kimmineralwater
+12597028,KIRARA
 1181893,Kimmy
-361708,Kelly.C
+12467152,Kimmineralwater
 125357,奎潾
+361708,Kelly.C
 30888770,Kim Minjoung
 30470238,Kyung-Eun HAN
 30109546,Kim Seohyeon
@@ -22331,8 +22338,9 @@ artist_id,artist_name
 159758,오정선
 30472281,Oh Seung A 
 30616520,O.I
-29354341,onsu
+30031553,OA
 30530252,OWLER 
+29354341,onsu
 28358152,Oh!You
 13227552,orange lala
 12213220,Onda
@@ -22399,10 +22407,11 @@ artist_id,artist_name
 12526048,Pixx
 12108980,Paxy
 12567071,朴银熙
-1192212,Prin
+12603761,Park Jiha
 12073838,朴珠熙
-29488404,PLAYUS
+1192212,Prin
 1080067,Plain Bagels
+29488404,PLAYUS
 12370120,朴敏熙
 12475043,Pretty Baek
 125848,Purple Sweet
@@ -22431,13 +22440,12 @@ artist_id,artist_name
 12440395,裴在华
 125850,朴素允
 125851,朴朱熙
-30738745,Parkkirin
+31025705,PURUM
 30556856,裴素娟
-30730565,裴珠娜
+30738745,Parkkirin
 29452016,朴诗恩
-30616585,Parkkirin
+30730565,裴珠娜
 28593064,Pebecco
-30573729,朴颂伊
 125869,全秀妍
 954248,权珍雅
 155312,全慧彬
@@ -22472,18 +22480,19 @@ artist_id,artist_name
 13645178,千淑京
 125517,全成肖
 12567306,全宝银
-13837576,全书允
+31029816,权恩静
 12493534,Querii
-13565100,全英
+13837576,全书允
 125870,权恩智
-13500840,全河京
+13565100,全英
 30498123,千静雅
-12436068,全香琪
+13500840,全河京
 27888439,全仁玉
-12108192,全敏京
+12436068,全香琪
 15248063,权爱英 
-1034004,千嘉英
+12108192,全敏京
 13774083,全慧子
+1034004,千嘉英
 125860,Queen Bee
 12544217,Rachel Lim
 12828299,Rothy
@@ -22558,20 +22567,21 @@ artist_id,artist_name
 30529283,Robinkss
 27693658,Rani
 30471251,Rita Lamiz
-12775754,任旻熙
+12973038,Risha
 30415255,RINAA
-12474698,ReSa
+12775754,任旻熙
 27952287,Rachel Kwag
-12463454,Raela
+12474698,ReSa
 13500443,RUBY
-12440054,睿恩
+12463454,Raela
 13498051,任创淑
-12332150,Ra.ll
+12440054,睿恩
 13192063,RainD
-12108526,Romantic Fish
+12332150,Ra.ll
 12776767,任明熙
-12073982,Ryhee
+12108526,Romantic Fish
 12607139,Recordame
+12073982,Ryhee
 12446019,Rhea
 12108427,润珍
 125903,Re Min
@@ -22725,22 +22735,24 @@ artist_id,artist_name
 126036,Urban Space
 126033,Urban Romantic City
 11995061,Unison
+11977100,U&
 12250128,Uza
 12355120,U.Je
-12493099,Uno
-30110252,Um Seona
-12467303,Una
-29149288,U-in
-29490258,UUi
-12273356,UA
-12505186,Universemongae
-126032,Unina
-12073678,Unee
 30618645,UZA
+30110252,Um Seona
 28085241,UNI
+29149288,U-in
 12142153,Uhnee
+12273356,UA
 12098153,USL
+126032,Unina
 12006169,uran
+29490258,UUi
+31030943,U-hee
+12505186,Universemongae
+12493099,Uno
+12073678,Unee
+12467303,Una
 12274140,VETTI
 12370127,VIEW
 1102059,Venny
@@ -22853,35 +22865,35 @@ artist_id,artist_name
 125945,秀安
 126086,心
 12903260,小抽屉
-13708559,序英
 12131518,雪炫
 1150344,孝恩
 12561863,贤子
 126087,咸阜英
-29945202,徐子英
-30403247,Xeheun
-28085322,雪儿
-28385427,秀拉
-13056630,孝定
-126079,贤珠
-126078,雪花
 30876285,薛恩英
-30968300,秀晶
+30403247,Xeheun
 30361485,雪伊朗
-30473692,徐智由
+28385427,秀拉
 27888437,勋子
-27889240,孝仁
+13708559,序英
 14999033,行淑儿
-13839124,徐裕贞
+126079,贤珠
 14712049,玄善雅
-13837700,炫儿
+29945202,徐子英
 13161117,星星爱情
-13498572,西香
+28085322,雪儿
 12447113,叙述的女子
-13497632,徐润京
+13056630,孝定
 12053449,徐智恩
-12301220,徐智秀
+126078,雪花
 1192373,徐盛熙
+30968300,秀晶
+30473692,徐智由
+27889240,孝仁
+13839124,徐裕贞
+13837700,炫儿
+13498572,西香
+13497632,徐润京
+12301220,徐智秀
 12289044,秀河
 11991188,许智英
 126064,宣河
@@ -22940,7 +22952,6 @@ artist_id,artist_name
 12278216,伊霖
 12998830,YON
 12914072,YUNINI
-11977100,YouAnd_
 126139,Yuna
 126148,尹雪
 905594,杨颂伊
@@ -22985,6 +22996,7 @@ artist_id,artist_name
 13642184,元金顺
 12463327,Yena
 13228492,Yang-A
+12457035,Yj
 896243,智妍
 866090,昭宥
 1085025,郑世珍
@@ -23069,21 +23081,21 @@ artist_id,artist_name
 126186,赵慧莲
 126170,张德
 126114,赵柳真
-28385085,周珍珠
+31043805,郑浩珍
 30528382,郑江
-28085489,ZinHy
+31041005,郑智慧
 30231114,郑七男
-14922021,郑彩林
+28385085,周珍珠
 29500490,ZENA
-13973421,张现周
+28085489,ZinHy
 27695294,郑美颂
-13840301,赵敏书
+14922021,郑彩林
 27692690,赵有琳
-13839533,赵志恩
+13973421,张现周
 15251098,赵善熙
-12895217,郑素敏
+13840301,赵敏书
 13973382,郑丽元
-12800029,钟熙
+13839533,赵志恩
 13432154,贞熙
 783124,BTS (防弹少年团)
 759509,EXO
@@ -23856,35 +23868,35 @@ artist_id,artist_name
 11975163,Flat Feet
 12774734,Fishingirls
 1124447,Fly High
-12474146,F＆F
+12645078,发动Band
 126743,Free Market
-12468014,FAVST
+12474146,F＆F
 30111312,F.W.D.
-12467026,Fourcut
+12468014,FAVST
 29497428,Frohe
-12449062,富平循道宗安杰洛斯儿童合唱团
+12467026,Fourcut
 13643184,FOURever
-12369102,分类清理
+12449062,富平循道宗安杰洛斯儿童合唱团
 13497648,Foul Child
-12311014,Frank
+12369102,分类清理
 12896164,from all to human
-12191202,Feverdogs
+12311014,Frank
 12602688,Flying Dog
-12108378,Fusion korea musik hey-ya
+12191202,Feverdogs
 12504120,Fallin'
-12108354,From The East
+12108378,Fusion korea musik hey-ya
 12487160,Fixie
-12108298,F.iNapt
+12108354,From The East
 12458160,Forever Worship
-12107622,Fordearone
+12108298,F.iNapt
 12448056,釜山ymca合唱团
-12098094,Fruity Woops
+12107622,Fordearone
 12355500,Fo-tet
-12073198,Four Tune
+12098094,Fruity Woops
 12279168,Fr.연광흠 바오로 & Friends
-1051038,Fri.D
+12073198,Four Tune
 12229060,Flower Singers
-864138,Fames
+1051038,Fri.D
 881021,GOT7
 126797,高耀太
 1192052,G'Night Stand
@@ -23965,25 +23977,25 @@ artist_id,artist_name
 126787,Gavy Queens
 929029,Garlixx
 1181812,Girl
-30724249,Gwon.U
+30730877,Gattaca
 30730108,Gunwoos Broken Hope
-30109769,Glass Bead Game
+30724249,Gwon.U
 30615600,国民老公
-29923033,Goldilocks Club
+30109769,Glass Bead Game
 27951908,Glory Of God
-29682941,GBB
+29923033,Goldilocks Club
 27693952,光和盐
-27888385,GRACHI
+29682941,GBB
 14062204,Gentleman League
-12994109,钢琴摇篮曲
+27888385,GRACHI
 13500668,尴尬的关系
-12774061,Graphy
+12994109,钢琴摇篮曲
 13430204,Groove Soul
-12506077,GOLDEN BRIEF$
+12774061,Graphy
 13429296,Groove Camp
-12468041,Grunge Band
+12506077,GOLDEN BRIEF$
 13227608,Golden King Harmony Ochestra
-12449089,G.Night
+12468041,Grunge Band
 13227536,Green Tomato Fried
 1054167,hyukoh
 126879,H.O.T.
@@ -24322,40 +24334,41 @@ artist_id,artist_name
 12435064,Korean Pops Orchestra
 12425082,KARROT
 30417236,KOG
-28899442,Kisnue
+31030750,Kyuhyon Kim & Hyungjoo Lee
 30035268,Kickstart
-27952466,Kidult
+28899442,Kisnue
 29490348,KINGZ
-13499646,KOF
+27952466,Kidult
 13222620,KIYUK
-13497046,Kyssrok
+13499646,KOF
 12608048,Kinkyscope
-12492494,KOBBER
+13497046,Kyssrok
 12487168,Korean Singers
-12462058,KD(KiggaXDbo)
+12492494,KOBBER
 12449104,KNOCK
-12335302,K-Pera Lin
+12462058,KD(KiggaXDbo)
 12322204,Kiki With Storytellers
-12108314,Klutz
+12335302,K-Pera Lin
 12279056,KIMOXAVI
-12107538,Kid's World Band
+12108314,Klutz
 12108344,KREATURES
-1181778,키노피오
+12107538,Kid's World Band
 12096136,강이진과 친구들
-127058,KnavE
+1181778,키노피오
 12066016,K.ACE
-127046,Kombie
+127058,KnavE
 12006128,KID BLUES
-29923253,Kinder-ele
+127046,Kombie
 11972016,KIRIN & ZEN-LA-ROCK
-12493565,Kissmaker
+29923253,Kinder-ele
 127068,kosKa
-12274329,KEI
+12493565,Kissmaker
 127064,Kalpa
-127057,Kino
+12274329,KEI
 127052,Killing Time
-20237,KAGURA
+127057,Kino
 30530267,KTG Sang Hyun Park
+20237,KAGURA
 29924627,Kound Up
 28410663,KW
 15022179,Korean Broadcasting Art School 2014
@@ -24860,7 +24873,7 @@ artist_id,artist_name
 832711,Primary Skool
 127435,Pepper Mint
 30617261,Project21AND
-30406259,Pilgrim
+31063571,Pang Ya
 30530385,Planet
 1103095,青春学概论
 127485,七公主
@@ -25617,30 +25630,31 @@ artist_id,artist_name
 12475072,ZAMBIAN CHOIR
 783268,ZE:A 4U
 128166,Zoltan
-30617500,张基河 x 脸们 全日准
+31043800,Zoo Fam
 30403234,Zack`s Carousel
-13774180,Zodiac
+30617500,张基河 x 脸们 全日准
 29925318,Zeze x 裴荣京
-12448084,忠清思慕合唱团
+13774180,Zodiac
 14468338,Z A K U Z I
-12091072,Zenith Diary
+12448084,忠清思慕合唱团
 12458098,Zefjay System
-12086088,张秀贤&元多熙
+12091072,Zenith Diary
 12441202,贞明 赞扬传教团体 
-30530331,Zenith
+12086088,张秀贤&元多熙
 1181690,真挚少年和弘大妖精
-13806111,Z-Kiri
+30530331,Zenith
 128138,郑元英乐队
-13737087,郑珠熙乐团
+13806111,Z-Kiri
 126830,G-Zone
-12630055,ZINNIA
+13737087,郑珠熙乐团
 30940497,zo dance company
-12074747,Zero.G
+12630055,ZINNIA
 30529269,Zion Highschool Composition Class
-1116159,株式会社
+12074747,Zero.G
 15021177,Zeroth
-1080091,ZEN
+1116159,株式会社
 12175085,ZION
+1080091,ZEN
 12096053,Zebra crossing Project
 12080373,ZLYD5
 11976037,Zero
@@ -26742,7 +26756,6 @@ artist_id,artist_name
 1193507,Jak Chawin
 1178188,J Jetrin
 106195,Jagjit Singh
-106183,Jack
 12975140,Jasur Umirov
 1049228,Jinn Thao
 12930086,Jo'shqin Jonibekov
@@ -26827,6 +26840,7 @@ artist_id,artist_name
 13431235,John Samy
 13431060,Junior and Pretty
 13430263,Jaspal Singh Dardi
+13430136,Jeff Tagoe
 106210,Klaas
 12309198,K-M-E
 106201,Kaleo
@@ -28047,7 +28061,6 @@ artist_id,artist_name
 1046088,Zac Knight
 1039999,525
 12080341,张盛德
-387253,Zabo
 1039612,造音小宁
 1078258,Zé Do Pipo
 12330017,Zakwe
@@ -28262,6 +28275,7 @@ artist_id,artist_name
 13288223,Terrorjam
 13012032,ไม้เมือง
 12966361,阿岛先生
+12188036,三條淵
 803051,Hương Tràm
 30482071,思晴
 740042,มาช่า
@@ -28296,7 +28310,6 @@ artist_id,artist_name
 28357025,อ้าย สรัลชนา
 14072127,Brila_L
 12642717,卡乐
-12280578,艾丽菲热·艾尔肯
 106399,Alka Yagnik
 106414,Asha Bhosle
 12566123,Aleyna Tilki
@@ -28363,39 +28376,39 @@ artist_id,artist_name
 13568086,Anoop Sathyaraj
 13659432,Amit Prajapati
 13500074,Asmot Ali
-13499556,A. Kanyakumari
+13580020,A.J. Blanc
 13498890,Aey Kuljira
-13485172,Anyi Jiménez
+13499556,A. Kanyakumari
 13497014,Ayça Yeşim
-13465036,Ami Kéite
+13485172,Anyi Jiménez
 13485282,Amit Savan
-13462196,Akansha Mittal
+13465036,Ami Kéite
 13465070,Aleksandra Ristanović
-13432228,Amarjeet Chawla
+13462196,Akansha Mittal
 13462210,Alpentines
-13429328,Aşkın Çelik
+13432228,Amarjeet Chawla
 13429126,Aumaim
-13228992,Afi Genya
+13429328,Aşkın Çelik
 13228866,Alka Jha
-13228704,Adelina Ismaili
+13228992,Afi Genya
 13226886,Abhishek Bhati
-13222392,Akter Khan
+13228704,Adelina Ismaili
 13222930,Atis Moy
-12830228,Angelina Cruz
+13222392,Akter Khan
 13222318,Anica Milenkovic
-12555208,Amity Meria
+12830228,Angelina Cruz
 13014122,Air Kannittika
-12532708,Ankit Akash
+12555208,Amity Meria
 12902270,Abhishek
-12532036,Aichata Sidibe
+12532708,Ankit Akash
 12335182,Ana Clara
-12311088,Achariya Dulyapaiboon
+12532036,Aichata Sidibe
 12074454,Alisa Kaewkhong
-12309084,Andini
+12311088,Achariya Dulyapaiboon
 12047974,Asmidar
-12278832,Angela July
+12309084,Andini
 12024506,Aisyah Aziz
-12260316,Agam Buhbut
+12278832,Angela July
 368162,Aïcha Koné
 12332137,Baturjan Gittar
 11977172,Bunga Citra Lestari
@@ -29441,6 +29454,7 @@ artist_id,artist_name
 1111013,Shweta Mohan
 106592,Sawan Dutta
 831118,Snow Fox Apprentice
+855113,Shruti Pathak
 12974247,Siriporn Aumpaipong
 12309127,Sĩ Thanh
 106577,Sarah Geronimo
@@ -29521,7 +29535,6 @@ artist_id,artist_name
 13498270,Samira et Rachid
 13430239,Sajan Ferozpuri
 13497442,Sanjida
-13430107,Saras Tirta
 106601,Truong Quynh Anh
 106600,Ten Nararak
 18167,Tata Young
@@ -29877,7 +29890,6 @@ artist_id,artist_name
 28186665,T&T
 1078416,บีไฟว์
 12236432,Mzoce
-28299117,NASSA
 13612402,清华大学键盘队
 1194110,ELYAR-PULAT
 1209010,一个大G
@@ -29917,6 +29929,7 @@ artist_id,artist_name
 12357295,DAVID BORING
 12147367,Near Death Experience／病亟
 12258195,向洋乐团
+12063090,恒哈图乐队
 106630,AltaiKAI
 12131555,Armando
 85667,Anima
@@ -30207,7 +30220,6 @@ artist_id,artist_name
 106727,Dervishi
 106717,Die Antwoord
 106722,Dvar
-12143054,DABOYWAY
 1081439,D.A.M.A
 54269,DropDead Music
 106715,Darkestrah
@@ -30532,19 +30544,18 @@ artist_id,artist_name
 13228882,Hamiraram Raika
 13322127,Hugo And Luigi & Their Children's Chorus
 13227022,Harbans Channu
-13227827,Hammy Harman
-13226898,Hell P
 13227631,Hannes Weyland Band
-13194274,Hariom Kumar
+13226898,Hell P
 13227211,Harjiwan
-12661398,Hookie Mousse
+13194274,Hariom Kumar
 13013119,Hum
-12068074,Hidayu
+12661398,Hookie Mousse
 463351,Hijau Daun
-106786,HALO
+12068074,Hidayu
 106787,Hand Of Mercy
-94130,HANGMAN
+106786,HALO
 106659,Hemina
+94130,HANGMAN
 12053243,Instinct
 106790,Inspirative
 106792,I am waiting for you last summer
@@ -30925,7 +30936,7 @@ artist_id,artist_name
 12342090,Matlakala And The Comforters
 13051127,Mankala
 12335274,Mouth to Mouth
-12645491,Meet
+12467299,MissDandy
 12322194,Mtuba Thulisa Brothers
 452098,Nadeem & Shravan
 106855,Namgar
