@@ -26,7 +26,7 @@ http://api.map.baidu.com/place/v2/search?
 '''
 
 import requests
-from v00_mysql import Sql
+from v00_mysql import MysqlAPI
 
 
 def getjson(loc,page_num=0):
@@ -83,7 +83,7 @@ for provinc in province_list:
                 except:
                     uid = None
                 # print(provinc,park,location_lat,location_lng,address,street_id,uid)
-                Sql.insert_city(provinc,park,location_lat,location_lng,address,street_id,uid)
+                MysqlAPI.insert_city(provinc,park,location_lat,location_lng,address,street_id,uid)
             page_num += 1
         else:
             flag = False

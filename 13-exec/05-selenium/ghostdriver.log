@@ -1,0 +1,12 @@
+[INFO  - 2019-01-02T13:34:08.498Z] GhostDriver - Main - running on port 50249
+[INFO  - 2019-01-02T13:34:09.379Z] Session [1569d6f0-0e93-11e9-ad75-e10c4cf4e4bb] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-01-02T13:34:09.379Z] Session [1569d6f0-0e93-11e9-ad75-e10c4cf4e4bb] - page.customHeaders:  - {}
+[INFO  - 2019-01-02T13:34:09.379Z] Session [1569d6f0-0e93-11e9-ad75-e10c4cf4e4bb] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-01-02T13:34:09.379Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1569d6f0-0e93-11e9-ad75-e10c4cf4e4bb
+[ERROR - 2019-01-02T13:34:15.590Z] Session [1569d6f0-0e93-11e9-ad75-e10c4cf4e4bb] - page.onError - msg: TypeError: undefined is not a function (evaluating '$(window).on')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-01-02T13:34:15.590Z] Session [1569d6f0-0e93-11e9-ad75-e10c4cf4e4bb] - page.onError - stack:
+  global code (https://img3.doubanio.com/misc/mixed_static/42623318503da44e.js:87)
+
+  phantomjs://platform/console++.js:263 in error
