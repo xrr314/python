@@ -82,7 +82,7 @@ def next_page(page_num):
         parse_html(html)
         while page_num == 101:
             exit()
-        # 查找下一页按钮,并点击
+        # 查找下一页按钮,并点击 #J_filter > div.f-line.top > div.f-sort > a:nth-child(2) > em > i
         button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, '#J_bottomPage > span.p-num > a.pn-next > em')))
         button.click()
         browser.execute_script("window.scrollTo(0,document.body.scrollHeight);")
