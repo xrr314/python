@@ -66,7 +66,7 @@ def parse_table():
     return df_table
 
 def write_to_file(dt_table,categorty):
-    file_path = '/home/tlxy/桌面/python/13-exec/05-selenium/v09'
+    file_path = '/home/tlxy/桌面/python/13-exec/04-selenium/v09'
     if not os.path.exists(file_path):
         os.mkdir(file_path)
     os.chdir(file_path)
