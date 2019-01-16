@@ -1,5 +1,5 @@
 '''
-爬取东方财富网
+爬取东方财富网-数据-年报季报
 http://data.eastmoney.com/bbsj/201809/yjyg.html
 '''
 
@@ -66,17 +66,16 @@ def parse_table():
     return df_table
 
 def write_to_file(dt_table,categorty):
-    file_path = './v09'
+    file_path = '/home/tlxy/桌面/python/13-exec/05-selenium/v09'
     if not os.path.exists(file_path):
         os.mkdir(file_path)
     os.chdir(file_path)
-    dt_table.to_csv('{}.csv'.format(categorty),mode='a',encoding='utf-8',index=0,header=0)
+    dt_table.to_csv('{}.csv'.format(categorty),mode='a',encoding='gb2312',index=0,header=0)
 
 
 def set_table():
     print('*'*80)
     print('\t\t\t\t东方财富网报表下载')
-    print('________________________')
     # 获取财务报表的获取时间
     year = int(float(input('请输入要查询的年份(四位数2017-2018):\n')))
     while(year<2017 or year>2018):
