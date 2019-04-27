@@ -87,11 +87,9 @@ import pymysql
 #     print('出错了')
 # db.close()
 
-# 查询操作
-db = pymysql.connect('127.0.0.1','root','123456','test')
-cursor = db.cursor()
-
 def queryById(id):
+    db = pymysql.connect('127.0.0.1', 'root', '123456', 'test1')
+    cursor = db.cursor()
     try:
         sql = 'select * from exam where uuid = "%s"'%(id)
         cursor.execute(sql)
@@ -101,8 +99,12 @@ def queryById(id):
         return data
     except:
         return '查询失败'
+    finally:
+        db.close()
 
 def insert(data):
+    db = pymysql.connect('127.0.0.1', 'root', '123456', 'test1')
+    cursor = db.cursor()
     try:
         sql = "insert into exam(uuid,optionCount,subDescript,option0,option1,option2,option3,option4,option5,score,type) VALUES('%s','%d','%s','%s','%s','%s','%s','%s','%s','%d','%s')" % (data['uuid'], int(data['optionCount']),data['subDescript'],data['option0'],data['option1'],data['option2'],data['option3'],data['option4'],data['option5'],int(data['score']),data['type'],)
         cursor.execute(sql)
@@ -112,8 +114,12 @@ def insert(data):
         db.rollback()
         print("添加失败")
         return  '添加失败'
+    finally:
+        db.close()
 
 def updatecur(id,cur):
+    db = pymysql.connect('127.0.0.1', 'root', '123456', 'test1')
+    cursor = db.cursor()
     try:
         sql = 'update exam set cur = "%s" where uuid = "%s"'%(cur,id)
         cursor.execute(sql)
@@ -121,3 +127,5 @@ def updatecur(id,cur):
     except:
         db.rollback()
         print("更新失败")
+    finally:
+        db.close()
