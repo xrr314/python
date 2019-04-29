@@ -3,7 +3,7 @@ import json
 import time
 import mysqlUtil
 
-url="http://192.168.88.101:8080/yiban-web/stu/nextSubject.jhtml"
+url="http://192.168.1.55:8080/yiban-web/stu/nextSubject.jhtml"
 kw={
     '_':str(int(time.time()*1000)),
     'courseId':'2'
@@ -12,19 +12,18 @@ curdict = {'0': 'A','1':'B','2':'C','3':'D','4':'E','5':'F'}
 backcurdict = {'A':'0','B':'1','C':'2','D':'3','E':'4','F':'5'}
 
 headers={
-    'Host': '192.168.88.101:8080',
+    'Host': '192.168.1.55:8080',
     'Accept': 'application/json',
     'Connection': 'keep-alive',
     'X-Requested-With': 'XMLHttpRequest',
     'Accept-Encoding': 'gzip, deflate',
     'Accept-Language': 'zh-cn',
     'Content-Type': 'application/x-www-form-urlencoded',
-    'Origin': 'http://192.168.88.101:8080',
+    'Origin': 'http://192.168.1.55:8080',
     'Content-Length': '10',
-    'Connection': 'keep-alive',
     'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 yiban_iOS',
-    'Referer': 'http://192.168.88.101:8080/yiban-web/stu/toSubject.jhtml?courseId=2',
-    'Cookie': 'JSESSIONID=A9B294AFF104E32339143CCD159239D9',
+    'Referer': 'http://192.168.1.55:8080/yiban-web/stu/toSubject.jhtml?courseId=2',
+    'Cookie': 'JSESSIONID=34683DC705FD121703BC32382265437E',
 
 }
 
@@ -35,12 +34,11 @@ backHeaders = {
     'Accept-Encoding': 'gzip, deflate',
     'Accept-Language': 'zh-cn',
     'Content-Type': 'application/x-www-form-urlencoded',
-    'Origin': 'http://192.168.88.101:8080',
+    'Origin': 'http://192.168.1.55:8080',
     'Content-Length': '69',
-    'Connection': 'keep-alive',
     'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 yiban_iOS',
-    'Referer': 'http://192.168.88.101:8080/yiban-web/stu/toSubject.jhtml?courseId=2',
-    'Cookie': 'JSESSIONID=A9B294AFF104E32339143CCD159239D9'
+    'Referer': 'http://192.168.1.55:8080/yiban-web/stu/toSubject.jhtml?courseId=2',
+    'Cookie': 'JSESSIONID=34683DC705FD121703BC32382265437E'
 }
 
 
@@ -126,7 +124,7 @@ def back(answer,data):
         'answer':answer,
         'uuid':uuid
     }
-    rsp = requests.post('http://192.168.88.101:8080/yiban-web/stu/changeSituation.jhtml', params=backkw, headers=backHeaders)
+    rsp = requests.post('http://192.168.1.55:8080/yiban-web/stu/changeSituation.jhtml', params=backkw, headers=backHeaders)
     backdict = json.loads(rsp.text)
     print(backdict)
     '''
@@ -171,7 +169,7 @@ if __name__ == '__main__':
                 updateCur(uuid,curAns)
         elif isinstance(result, str):
             print('====添加题目不存在====')
-            '''题目不存在直接返回A,从系统获取争取答案'''
+            '''题目不存在直接返回A,从系统获取正确答案'''
             curAns = back('A', data)
             '''修改数据库中题目答案'''
             updateCur(uuid, curAns)

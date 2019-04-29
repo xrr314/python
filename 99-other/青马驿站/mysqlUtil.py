@@ -47,10 +47,10 @@ import pymysql
 #     host='127.0.0.1',   主机地址
 #     user='root',        用户名
 #     password='123456',  密码
-#     db='test',          数据库
+#     db='青马驿站',          数据库
 #     port='3306'         端口
 #     '''
-#     db = pymysql.connect(host='127.0.0.1',user='root',passwd='123456',db='test',port=3306)
+#     db = pymysql.connect(host='127.0.0.1',user='root',passwd='123456',db='青马驿站',port=3306)
 #     # 创建游标,对数据进行操作,使用cursor()方法
 #     cursor = db.cursor()
 #     # 使用excecute()来执行sql语句
@@ -69,7 +69,7 @@ import pymysql
 #     print('创建失败')
 
 # # 数据插入
-# db = pymysql.connect(host='127.0.0.1',user='root',passwd='123456',port=3306,db='test')
+# db = pymysql.connect(host='127.0.0.1',user='root',passwd='123456',port=3306,db='青马驿站')
 #
 # cursor = db.cursor()
 # sql = 'insert into tlxy(FIRST_NAME,LAST_NAME,AGE,SEX,INCOME) VALUES ("xue","rongrong",18,"M","5555"),' \
@@ -88,7 +88,7 @@ import pymysql
 # db.close()
 
 def queryById(id):
-    db = pymysql.connect('127.0.0.1', 'root', '123456', 'test1')
+    db = pymysql.connect('127.0.0.1', 'root', '123456', '青马驿站')
     cursor = db.cursor()
     try:
         sql = 'select * from exam where uuid = "%s"'%(id)
@@ -103,7 +103,7 @@ def queryById(id):
         db.close()
 
 def insert(data):
-    db = pymysql.connect('127.0.0.1', 'root', '123456', 'test1')
+    db = pymysql.connect('127.0.0.1', 'root', '123456', '青马驿站')
     cursor = db.cursor()
     try:
         sql = "insert into exam(uuid,optionCount,subDescript,option0,option1,option2,option3,option4,option5,score,type) VALUES('%s','%d','%s','%s','%s','%s','%s','%s','%s','%d','%s')" % (data['uuid'], int(data['optionCount']),data['subDescript'],data['option0'],data['option1'],data['option2'],data['option3'],data['option4'],data['option5'],int(data['score']),data['type'],)
@@ -118,7 +118,7 @@ def insert(data):
         db.close()
 
 def updatecur(id,cur):
-    db = pymysql.connect('127.0.0.1', 'root', '123456', 'test1')
+    db = pymysql.connect('127.0.0.1', 'root', '123456', '青马驿站')
     cursor = db.cursor()
     try:
         sql = 'update exam set cur = "%s" where uuid = "%s"'%(cur,id)
