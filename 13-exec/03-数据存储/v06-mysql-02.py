@@ -5,7 +5,7 @@ navicat
 '''
 import pymysql
 
-db = pymysql.connect('127.0.0.1','root','123456','test')
+db = pymysql.connect('127.0.0.1','root','123456','青马驿站')
 cursor = db.cursor()
 
 # 更新

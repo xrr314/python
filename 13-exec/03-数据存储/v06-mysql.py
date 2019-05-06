@@ -47,10 +47,10 @@ import pymysql
 #     host='127.0.0.1',   主机地址
 #     user='root',        用户名
 #     password='123456',  密码
-#     db='test',          数据库
+#     db='青马驿站',          数据库
 #     port='3306'         端口
 #     '''
-#     db = pymysql.connect(host='127.0.0.1',user='root',passwd='123456',db='test',port=3306)
+#     db = pymysql.connect(host='127.0.0.1',user='root',passwd='123456',db='青马驿站',port=3306)
 #     # 创建游标,对数据进行操作,使用cursor()方法
 #     cursor = db.cursor()
 #     # 使用excecute()来执行sql语句
@@ -69,7 +69,7 @@ import pymysql
 #     print('创建失败')
 
 # # 数据插入
-# db = pymysql.connect(host='127.0.0.1',user='root',passwd='123456',port=3306,db='test')
+# db = pymysql.connect(host='127.0.0.1',user='root',passwd='123456',port=3306,db='青马驿站')
 #
 # cursor = db.cursor()
 # sql = 'insert into tlxy(FIRST_NAME,LAST_NAME,AGE,SEX,INCOME) VALUES ("xue","rongrong",18,"M","5555"),' \
@@ -93,7 +93,7 @@ fetchall():接受所有的返回结果
 fetcgone():获取下一个结果集
 rowcount():只读属性,返回执行语句影响的行数
 '''
-db = pymysql.connect('127.0.0.1','root','123456','test')
+db = pymysql.connect('127.0.0.1','root','123456','青马驿站')
 cursor = db.cursor()
 try:
     sql = 'select * from tlxy'

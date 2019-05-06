@@ -131,7 +131,7 @@ class MysqlAPI(object):
             return '{}--格式化失败'.format(table_name)
 
 if __name__ == '__main__':
-    mysql = MysqlAPI('127.0.0.1','root','123456','test')
+    mysql = MysqlAPI('127.0.0.1','root','123456','青马驿站')
     # print(mysql)
     for i in range(10):
         data = {

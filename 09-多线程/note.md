@@ -22,7 +22,7 @@
   
 - Python包
     - thread：有问题，不好用，python3改成了_thread
-    -  threading: 通行的包
+    - threading : 通行的包
     - 案例01: 顺序执行，耗时比较长
     - 案例02： 改用多线程，缩短总时间，使用_thread(这种方式基本不使用了)
     - 案例03： 多线程，传参数

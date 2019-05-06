@@ -13,7 +13,7 @@ for stu in root.iter('Student'):
     name = stu.find('Name')
 
     if name != None:
-        name.set( 'test', name.text * 2)
+        name.set( '青马驿站', name.text * 2)
 
 stu = root.find('Student')
 

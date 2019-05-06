@@ -12,7 +12,7 @@ rows = [
     (1003,'yitengjun','Nan','Jinan'),
 ]
 
-with open('test.csv','w') as f:
+with open('青马驿站.csv','w') as f:
     f_csv = csv.writer(f)
     f_csv.writerow(headers)
     f_csv.writerows(rows)

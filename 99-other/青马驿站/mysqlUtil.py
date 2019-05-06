@@ -87,11 +87,11 @@ import pymysql
 #     print('出错了')
 # db.close()
 
-def queryById(id):
-    db = pymysql.connect('127.0.0.1', 'root', '123456', '青马驿站')
+def queryById(subDescript):
+    db = pymysql.connect('127.0.0.1', 'root', '123456', 'test')
     cursor = db.cursor()
     try:
-        sql = 'select * from exam where uuid = "%s"'%(id)
+        sql = 'select * from exam where subDescript = "%s"'%(subDescript)
         cursor.execute(sql)
         # 取得查询结果,为元组类型
         data = cursor.fetchall()
@@ -103,7 +103,7 @@ def queryById(id):
         db.close()
 
 def insert(data):
-    db = pymysql.connect('127.0.0.1', 'root', '123456', '青马驿站')
+    db = pymysql.connect('127.0.0.1', 'root', '123456', 'test')
     cursor = db.cursor()
     try:
         sql = "insert into exam(uuid,optionCount,subDescript,option0,option1,option2,option3,option4,option5,score,type) VALUES('%s','%d','%s','%s','%s','%s','%s','%s','%s','%d','%s')" % (data['uuid'], int(data['optionCount']),data['subDescript'],data['option0'],data['option1'],data['option2'],data['option3'],data['option4'],data['option5'],int(data['score']),data['type'],)
@@ -117,11 +117,11 @@ def insert(data):
     finally:
         db.close()
 
-def updatecur(id,cur):
-    db = pymysql.connect('127.0.0.1', 'root', '123456', '青马驿站')
+def updatecur(subDescript,cur):
+    db = pymysql.connect('127.0.0.1', 'root', '123456', 'test')
     cursor = db.cursor()
     try:
-        sql = 'update exam set cur = "%s" where uuid = "%s"'%(cur,id)
+        sql = 'update exam set cur = "%s" where subDescript = "%s"'%(cur,subDescript)
         cursor.execute(sql)
         db.commit()
     except:
